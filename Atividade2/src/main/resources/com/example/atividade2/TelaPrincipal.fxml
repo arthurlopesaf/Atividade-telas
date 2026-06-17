@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atividade2.TelaPrincipalController">
+   <children>
+      <Label alignment="CENTER" layoutX="103.0" layoutY="14.0" prefHeight="29.0" prefWidth="194.0" text="Situação do aluno">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="8.0" layoutY="78.0" prefHeight="22.0" prefWidth="111.0" text="Nome do aluno:">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNomeDoAluno" layoutX="126.0" layoutY="77.0" />
+      <Label alignment="CENTER" layoutX="8.0" layoutY="142.0" prefHeight="22.0" prefWidth="111.0" text="Nota 1:">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="8.0" layoutY="189.0" prefHeight="22.0" prefWidth="111.0" text="Nota 2:">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="8.0" layoutY="235.0" prefHeight="22.0" prefWidth="111.0" text="Nota 3:">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblResultado" alignment="CENTER" layoutX="10.0" layoutY="346.0" prefHeight="20.0" prefWidth="382.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNota1" layoutX="126.0" layoutY="141.0" />
+      <TextField fx:id="txtNota2" layoutX="126.0" layoutY="188.0" />
+      <TextField fx:id="txtNota3" layoutX="126.0" layoutY="234.0" />
+      <Button layoutX="174.0" layoutY="277.0" mnemonicParsing="false" onAction="#btnCalcularNota" text="Calcular" />
+   </children>
+</AnchorPane>

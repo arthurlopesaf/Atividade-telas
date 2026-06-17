@@ -14,6 +14,7 @@ public class VerificadordeParouImparApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 450, 400);
         stage.setTitle("Verificador de Par ou Ímpar");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 }

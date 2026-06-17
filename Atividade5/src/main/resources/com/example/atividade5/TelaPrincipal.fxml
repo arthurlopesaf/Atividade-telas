@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atividade5.TelaPrincipalController">
+   <children>
+      <Label layoutX="42.0" layoutY="26.0" prefHeight="33.0" prefWidth="417.0" text="Classificação de Número: Positivo, Negativo ou Nulo">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="121.0" prefHeight="18.0" prefWidth="116.0" text="Digite um número:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNumero" layoutX="176.0" layoutY="119.0" />
+      <Button layoutX="214.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnClassificarNumero" prefHeight="25.0" prefWidth="72.0" text="Classificar" />
+      <Label fx:id="lblResultado" alignment="CENTER" layoutX="55.0" layoutY="267.0" prefHeight="25.0" prefWidth="392.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
