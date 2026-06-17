@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atividade1.TelaPrincipalController">
+   <children>
+      <Label alignment="CENTER" layoutX="51.0" layoutY="24.0" prefHeight="26.0" prefWidth="348.0" text="Verifique se o número é par ou ímpar">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="163.0" text="Digite um Número:" />
+      <TextField fx:id="txtNumeroInserido" layoutX="151.0" layoutY="159.0" />
+      <Button fx:id="btnVerificar" layoutX="182.0" layoutY="217.0" mnemonicParsing="false" onAction="#VerificarParouImpar" prefHeight="25.0" prefWidth="87.0" text="Verificar" />
+      <Label fx:id="lblResultado" alignment="CENTER" layoutX="74.0" layoutY="271.0" prefHeight="65.0" prefWidth="302.0">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
