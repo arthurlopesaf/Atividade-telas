@@ -13,8 +13,6 @@ public class TelaPrincipalController {
     @FXML
     private TextField txtIdade;
 
-    //Observação: Categorias: Infantil A, de 5 a 7 anos; Infantil B, de 8 a 10 anos; Juvenil A, de 11 a 13 anos;
-    //Juvenil B, de 14 a 17 anos; Sênior, maiores de 18 anos.
     public void btnClassificarCategoria(ActionEvent actionEvent) {
 
         try {
