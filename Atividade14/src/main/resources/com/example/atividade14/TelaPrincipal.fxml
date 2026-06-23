@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.atividade14.TelaPrincipalController">
+    <children>
+        <Label layoutX="58.0" layoutY="24.0" text="Compra de carro novo">
+            <font>
+                <Font name="System Bold" size="27.0"/>
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="64.0" layoutY="89.0" prefHeight="28.0" prefWidth="272.0"
+               text="Deseja comprar um carro novo?">
+            <font>
+                <Font size="18.0"/>
+            </font>
+        </Label>
+        <RadioButton fx:id="rdbSim" layoutX="92.0" layoutY="127.0" mnemonicParsing="false" text="Sim">
+            <toggleGroup>
+                <ToggleGroup fx:id="SimNao"/>
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="rdbNao" layoutX="267.0" layoutY="127.0" mnemonicParsing="false" text="Não"
+                     toggleGroup="$SimNao"/>
+        <Label layoutX="103.0" layoutY="200.0" text="Tem dinheiro suficiente?">
+            <font>
+                <Font size="18.0"/>
+            </font>
+        </Label>
+        <RadioButton fx:id="rdbSimDinheiro" layoutX="92.0" layoutY="234.0" mnemonicParsing="false" text="Sim">
+            <toggleGroup>
+                <ToggleGroup fx:id="SimNao2"/>
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="rdbNaoDinheiro" layoutX="267.0" layoutY="234.0" mnemonicParsing="false" text="Não"
+                     toggleGroup="$SimNao2"/>
+        <Button layoutX="166.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnVerificar" prefHeight="27.0"
+                prefWidth="68.0" text="Verificar"/>
+        <Label fx:id="lblResultado" alignment="CENTER" layoutX="9.0" layoutY="298.0" prefHeight="97.0" prefWidth="385.0"
+               wrapText="true">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
