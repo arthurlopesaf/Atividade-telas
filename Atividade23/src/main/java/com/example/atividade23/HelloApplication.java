@@ -1,4 +1,4 @@
-package org.example.atividade19;
+package com.example.atividade23;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -12,7 +12,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("TelaPrincipal.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 400, 400);
-        stage.setTitle("Divisibilidade por 3 ou por 5");
+        stage.setTitle("Clube de benefícios");
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();

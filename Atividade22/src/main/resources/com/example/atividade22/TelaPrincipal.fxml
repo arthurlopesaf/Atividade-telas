@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atividade22.TelaPrincipalController">
+    <children>
+        <Label layoutX="69.0" layoutY="14.0" text="Número fora da faixa esperada">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="34.0" layoutY="102.0" text="Número inteiro:" />
+        <Label fx:id="lblResultado" alignment="CENTER" layoutX="4.0" layoutY="256.0" prefHeight="135.0" prefWidth="391.0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Button layoutX="151.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnValidarNumero" text="Validar número" />
+        <TextField fx:id="txtNumero" layoutX="126.0" layoutY="98.0" />
+    </children>
+</AnchorPane>

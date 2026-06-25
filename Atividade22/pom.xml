@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>Atividade19</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>Atividade22</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Atividade19</name>
+    <name>Atividade22</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.example.atividade19/org.example.atividade19.HelloApplication</mainClass>
+                            <mainClass>com.example.atividade22/com.example.atividade22.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
