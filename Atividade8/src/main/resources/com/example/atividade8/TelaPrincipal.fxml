@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atividade8.TelaPrincipalController">
+   <children>
+      <Label alignment="CENTER" layoutX="31.0" layoutY="14.0" text="Maior entre três números">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="80.0" prefHeight="21.0" prefWidth="78.0" text="1° número:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="txtNumero1" layoutX="109.0" layoutY="78.0" />
+      <Label layoutX="31.0" layoutY="126.0" prefHeight="21.0" prefWidth="78.0" text="2° número:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNumero2" layoutX="109.0" layoutY="124.0" />
+      <Label layoutX="31.0" layoutY="172.0" prefHeight="21.0" prefWidth="78.0" text="3° número:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNumero3" layoutX="109.0" layoutY="170.0" />
+      <Button layoutX="130.0" layoutY="221.0" mnemonicParsing="false" onAction="#btnEncontrarMaior" prefHeight="25.0" prefWidth="108.0" text="Encontrar maior" />
+      <Label fx:id="lblResultado" alignment="CENTER" layoutX="28.0" layoutY="304.0" prefHeight="73.0" prefWidth="297.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
