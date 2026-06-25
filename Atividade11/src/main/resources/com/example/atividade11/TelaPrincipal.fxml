@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atividade11.TelaPrincipalController">
+    <children>
+        <Label alignment="CENTER" layoutX="5.0" layoutY="14.0" prefHeight="40.0" prefWidth="390.0" text="Equação segundo grau">
+            <font>
+                <Font name="System Bold" size="30.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="14.0" layoutY="84.0" text="Valor de A:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="14.0" layoutY="129.0" text="Valor de B:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="14.0" layoutY="175.0" text="Valor de C:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtValorA" layoutX="97.0" layoutY="84.0" />
+        <TextField fx:id="txtValorB" layoutX="97.0" layoutY="129.0" />
+        <TextField fx:id="txtValorC" layoutX="97.0" layoutY="175.0" />
+        <Button layoutX="170.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnCalcularEquacao" text="Calcular" />
+        <Label fx:id="lblResultado" alignment="CENTER" layoutX="14.0" layoutY="293.0" prefHeight="100.0" prefWidth="370.0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atividade15.TelaPrincipalController">
+    <children>
+        <Label layoutX="61.0" layoutY="14.0" text="Qualificação para vaga">
+            <font>
+                <Font name="System Bold" size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="65.0" layoutY="76.0" prefHeight="26.0" prefWidth="271.0" text="Possui diploma de ensino superior?">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <RadioButton fx:id="rbdSim" layoutX="61.0" layoutY="114.0" mnemonicParsing="false" text="Sim">
+            <toggleGroup>
+                <ToggleGroup fx:id="Diploma" />
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="rbdNao" layoutX="292.0" layoutY="114.0" mnemonicParsing="false" text="Não" toggleGroup="$Diploma" />
+        <Label layoutX="138.0" layoutY="158.0" prefHeight="26.0" prefWidth="124.0" text="Insira sua idade:">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtIdade" layoutX="126.0" layoutY="188.0" />
+        <Label fx:id="lblResultado" alignment="CENTER" layoutX="7.0" layoutY="299.0" prefHeight="97.0" prefWidth="388.0" wrapText="true">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Button layoutX="171.0" layoutY="242.0" mnemonicParsing="false" onAction="#btnVerificarVaga" text="Verificar" />
+    </children>
+</AnchorPane>
