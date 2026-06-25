@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="250.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.telinha.TelaPrincipalController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane fx:id="conteudo" prefHeight="198.0" prefWidth="226.0">
+      <children>
+         <Button fx:id="btnBotaoTexto" layoutX="150.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnAparecerTexto" text="Aperte linda" />
+         <Label fx:id="txtTexto" alignment="CENTER" layoutX="133.0" layoutY="112.0" prefHeight="25.0" prefWidth="115.0" />
+         <ImageView fx:id="imgGaby" fitHeight="143.0" fitWidth="150.0" layoutX="231.0" pickOnBounds="true" preserveRatio="true" />
+         <ImageView fx:id="imgGabyRosa" fitHeight="99.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+         <Label fx:id="contagem" alignment="CENTER" layoutY="184.0" prefHeight="17.0" prefWidth="115.0" text="Contagem de Goons" />
+         <Label fx:id="contagemNumero" alignment="CENTER" layoutX="119.0" layoutY="184.0" />
+      </children></AnchorPane>
+</VBox>

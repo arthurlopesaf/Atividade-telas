@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.atividade18.TelaPrincipalController">
+    <children>
+        <Label alignment="CENTER" layoutX="29.0" layoutY="14.0" prefHeight="27.0" prefWidth="343.0" text="Café com adicional">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <RadioButton fx:id="rdbSimAcucar" layoutX="113.0" layoutY="97.0" mnemonicParsing="false" text="Sim">
+         <toggleGroup>
+            <ToggleGroup fx:id="Acucar" />
+         </toggleGroup></RadioButton>
+        <RadioButton fx:id="rdbNaoAcucar" layoutX="250.0" layoutY="97.0" mnemonicParsing="false" text="Não" toggleGroup="$Acucar" />
+        <RadioButton fx:id="rdbSimLeite" layoutX="121.0" layoutY="192.0" mnemonicParsing="false" text="Sim">
+         <toggleGroup>
+            <ToggleGroup fx:id="Leite" />
+         </toggleGroup></RadioButton>
+        <RadioButton fx:id="rdbNaoLeite" layoutX="235.0" layoutY="192.0" mnemonicParsing="false" text="Não" toggleGroup="$Leite" />
+        <Label layoutX="121.0" layoutY="140.0" text="Deseja adicionar leite?">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="113.0" layoutY="62.0" text="Deseja adicionar açúcar?">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Button layoutX="157.0" layoutY="238.0" mnemonicParsing="false" onAction="#btnPrepararCafe" text="Preparar café" />
+        <Label fx:id="lblResultado" alignment="CENTER" layoutX="9.0" layoutY="285.0" prefHeight="108.0" prefWidth="382.0" wrapText="true">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
