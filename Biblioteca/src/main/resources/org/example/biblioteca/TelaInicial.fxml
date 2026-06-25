@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.biblioteca.TelaInicialController">
+    <children>
+        <AnchorPane fx:id="TelaInicial" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;">
+            <children>
+                <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.49" pickOnBounds="true">
+                    <image>
+                        <Image url="@../../../fotos/fundobiblioteca.jpg" />
+                    </image>
+                    <effect>
+                        <Lighting bumpInput="$null">
+                            <light>
+                                <Light.Distant>
+                                    <color>
+                                        <Color red="0.8947368264198303" green="0.8947368264198303" blue="0.8947368264198303" />
+                                    </color>
+                                </Light.Distant>
+                            </light>
+                        </Lighting>
+                    </effect>
+                </ImageView>
+                <Button layoutX="192.0" layoutY="254.0" mnemonicParsing="false" onAction="#btnMenuPrincipal" prefHeight="40.0" prefWidth="217.0" style="-fx-border-radius: 15; -fx-background-radius: 15; -fx-text-fill: white; -fx-background-color: #005eff;" text="Cadastrar livro" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Bold" size="20.0" />
+                    </font>
+                </Button>
+                <Label alignment="CENTER" layoutX="53.0" layoutY="61.0" prefHeight="75.0" prefWidth="495.0" style="-fx-background-color: linear-gradient(to right, #011446, #0b2b75); -fx-background-radius: 20; -fx-border-radius: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 15, 0.3, 0, 5); -fx-font-size: 28px; -fx-font-weight: bold; -fx-padding: 10;" text="Biblioteca NC Books" textFill="#84b3ff">
+                    <font>
+                        <Font size="52.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+      <AnchorPane fx:id="MenuPrincipal" prefHeight="400.0" prefWidth="600.0" visible="false">
+         <children>
+            <Label layoutX="241.0" layoutY="33.0" text="TELE DE MENU INCIAL" />
+         </children></AnchorPane>
+    </children>
+</AnchorPane>
